@@ -30,8 +30,7 @@ h3 {
   letter-spacing: 2px;
 }
 
-h2,
-h3 {
+h2 {
   text-align: center;
 }
 
@@ -62,12 +61,12 @@ nav > a:hover {
 .all-me {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   gap: 50px;
-  margin: 30px;
+  margin: 70px auto;
 }
 
 .left {
-  margin: 50px;
   padding-bottom: 30px;
   border-radius: 10px;
   background-color: antiquewhite;
@@ -75,8 +74,19 @@ nav > a:hover {
 .aside {
   display: flex;
   flex-direction: column;
-  margin: 50px;
+  justify-content: space-evenly;
+  gap: 40px;
   padding: 20px;
+}
+
+.more-me {
+  border: 2px #ff8000 dotted;
+  border-radius: 0 20px;
+  padding: 20px;
+}
+
+.more-me:hover {
+  background-color: antiquewhite;
 }
 
 .portfolio-header {
