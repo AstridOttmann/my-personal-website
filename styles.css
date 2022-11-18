@@ -21,7 +21,22 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 3px solid #ff8000;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 2px;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.me {
+  color: hsl(30, 100%, 50%);
 }
 
 .header-text {
@@ -40,6 +55,30 @@ nav > a {
   padding-right: 20px;
 }
 
+nav > a:hover {
+  color: #ff8000;
+}
+
+.all-me {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 30px;
+}
+
+.left {
+  margin: 50px;
+  padding-bottom: 30px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  padding: 20px;
+}
+
 .portfolio-header {
   text-align: center;
 }
@@ -52,7 +91,10 @@ nav > a {
 footer {
   background-color: #840303b7;
   padding: 10px 30px;
+  border-top: 2px solid #ff8000;
+  color: hsl(30, 100%, 50%);
+}
+
+footer > p {
   text-align: right;
-  border-top: 2px solid black;
-  color: #ff8000;
 }
