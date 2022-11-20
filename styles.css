@@ -36,6 +36,8 @@ h2 {
 
 .me {
   color: hsl(30, 100%, 50%);
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .header-text {
@@ -47,10 +49,13 @@ main {
   background: linear-gradient(90deg, #dc5a03, #6e2d02);
 }
 
+a {
+  text-decoration: none;
+}
+
 nav > a {
   color: black;
   font-size: 16px;
-  text-decoration: none;
   padding-right: 20px;
 }
 
@@ -65,11 +70,17 @@ nav > a:hover {
   justify-content: space-evenly;
   gap: 50px;
   margin: 70px auto;
+  background-image: url("./assets/computer\ code-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: right center;
 }
 
 .left {
-  padding-bottom: 30px;
-  border-radius: 10px;
+  padding-bottom: 20px;
+  margin: 20px;
+  border-radius: 0px 20px;
   background-color: antiquewhite;
   width: 300px;
 }
@@ -80,16 +91,26 @@ nav > a:hover {
   gap: 40px;
   padding: 20px;
   max-width: 50%;
+  color: #ff8000;
 }
 
 .more-me {
-  border: 2px #ff8000 dotted;
+  border: 4px #ff8000 dashed;
   border-radius: 0 20px;
   padding: 20px;
 }
 
+.more-me > h3 {
+  font-weight: bold;
+  font-size: 24px;
+  background-color: antiquewhite;
+  width: 100%;
+  padding: 10px;
+}
+
 .more-me:hover {
   background-color: antiquewhite;
+  color: black;
 }
 
 .portfolio-header {
@@ -99,6 +120,14 @@ nav > a:hover {
 .portfolio {
   display: flex;
   justify-content: space-evenly;
+}
+
+.vision {
+  background-image: url("./assets/computer\ code-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: right center;
 }
 
 .contact {
@@ -114,13 +143,13 @@ nav > a:hover {
 }
 
 .contact :not(:first-child) {
-  font-size: 20px;
   color: antiquewhite;
-  padding-left: 30px;
 }
 
-.cct-element {
+.con-element {
   margin: 10px;
+  font-size: 20px;
+  padding-left: 30px;
   color: red;
 }
 
