@@ -63,7 +63,6 @@ nav > a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
   gap: 50px;
   margin: 70px auto;
 }
@@ -72,6 +71,7 @@ nav > a:hover {
   padding-bottom: 30px;
   border-radius: 10px;
   background-color: antiquewhite;
+  width: 300px;
 }
 .aside {
   display: flex;
@@ -99,6 +99,29 @@ nav > a:hover {
 .portfolio {
   display: flex;
   justify-content: space-evenly;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(30, 100%, 50%);
+  border: 3px solid #840303b7;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.contact :not(:first-child) {
+  font-size: 20px;
+  color: antiquewhite;
+  padding-left: 30px;
+}
+
+.cct-element {
+  margin: 10px;
+  color: red;
 }
 
 footer {
