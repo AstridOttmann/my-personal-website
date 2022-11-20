@@ -122,11 +122,14 @@ nav > a:hover {
   justify-content: space-evenly;
 }
 
+.figure {
+  background-color: black;
+}
+
 .vision {
   background-image: url("./assets/computer\ code-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
   background-position: right center;
 }
 
@@ -136,7 +139,7 @@ nav > a:hover {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background-color: hsl(30, 100%, 50%);
+  background-color: #ff8000;
   border: 3px solid #840303b7;
   border-radius: 30px;
   padding: 10px;
@@ -144,13 +147,21 @@ nav > a:hover {
 
 .contact :not(:first-child) {
   color: antiquewhite;
-}
-
-.con-element {
   margin: 10px;
   font-size: 20px;
   padding-left: 30px;
-  color: red;
+}
+
+.contact-header {
+  color: #840303b7;
+}
+
+.fab {
+  font-size: 28px;
+}
+
+.contact a:hover {
+  color: #840303b7;
 }
 
 footer {
