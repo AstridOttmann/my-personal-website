@@ -119,11 +119,19 @@ nav > a:hover {
 
 .portfolio {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
-.figure {
-  background-color: black;
+figure {
+  padding: 50px;
+  background-color: antiquewhite;
+}
+
+figcaption {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
 }
 
 .vision {
